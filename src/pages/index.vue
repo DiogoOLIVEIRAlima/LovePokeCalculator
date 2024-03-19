@@ -51,8 +51,11 @@ function fetchData(teste) {
     })
     .then(data => {
       let dados = data.data[0]
-
+      console.log(dados)
+      console.log("Cu")
+      console.log(data)
       if(teste == true){
+        
         cardName1 = dados.name
         imagem1.value = dados.images.small
         input1.value = ""
@@ -82,7 +85,6 @@ function showError(texto) {
 
 
 function calcular() {
-  debugger
   if(cardName1 === cardName2){
     showError("Ei, escolha dois pokemons diferentes. Isso seria meio estranho 🤢")
     return
