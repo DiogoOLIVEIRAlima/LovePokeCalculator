@@ -1,1 +1,1 @@
-Professor para rodar o projeto, basta abrir o terminal e rodar o comando npm run devs
+Professor para rodar o projeto, basta abrir o terminal e rodar o comando npm run dev
